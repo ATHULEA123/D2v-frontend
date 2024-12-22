@@ -106,7 +106,7 @@ const Gallery = () => {
 {/* mobile size */}
 
       <div className="gallerymobilesize flex flex-col gap-24">
-        <div className="rounded-md overflow-hidden">
+        <div className="rounded-md overflow-hidden" data-aos="fade-up" data-aos-duration="1000" >
           <img src={galleryone} alt="Gallery One" className="w-full object-cover" />
         </div>
         <div>
@@ -123,11 +123,11 @@ const Gallery = () => {
         <div className="rounded-md overflow-hidden mt-5" data-aos="fade-up" data-aos-duration="1000" >
           <img src={bedroomthree} alt="Bedroom Three" className="w-full object-cover" />
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000" >
           <h2 className="text-3xl md:text-5xl font-Playfair font-medium text-[#996830] my-4 text-center">Lights</h2>
 
         </div>
-        <div className="mt-5">
+        <div className="mt-5"  data-aos="fade-up" data-aos-duration="1000" >
           <img src={lightone} alt="Light One" className="w-full object-cover" />
         </div>
         <div className="rounded-md overflow-hidden mt-5" data-aos="fade-up" data-aos-duration="1000" >

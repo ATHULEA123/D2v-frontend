@@ -5,7 +5,7 @@ const ProjectEstimate = () => {
     return (
         <div className="custom-container px-4 sm:px-8 md:px-12 lg:px-20 pb-16">
             {/* Main Wrapper */}
-            <div className="py-16">
+            <div className="py-16" data-aos="flip-up">
                 {/* Image Section */}
                 <div className="relative flex items-center justify-center">
                     <img
