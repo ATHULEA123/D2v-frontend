@@ -47,7 +47,7 @@ const Navbar = () => {
 
       {/* Mobile Menu with Sliding Transition */}
       <div
-        className={`w-full md:hidden fixed top-0 right-0 h-full  bg-white z-50 transform ${
+        className={`w-[300px] md:hidden fixed top-0 right-0 h-full  bg-white z-50 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 shadow-lg`}
       >
