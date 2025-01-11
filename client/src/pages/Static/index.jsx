@@ -9,6 +9,7 @@ import ProjectEstimate from "./ProjectEstimate";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
+import TawkTo from "./TawkTo";
 
 const Static = () => {
   return (
@@ -19,6 +20,7 @@ const Static = () => {
       <Portfolio />
       <Gallery />
       <ProjectEstimate />
+      <TawkTo/>
       <Contact />
       <Footer />
     </div>
