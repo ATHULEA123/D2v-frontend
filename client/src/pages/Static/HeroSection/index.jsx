@@ -1,7 +1,11 @@
 import React from "react";
 import {herobackground} from "../../../assets/constant";
-
+import {useNavigate} from "react-router-dom";
 const HeroSection = () => {
+  const navigate = useNavigate()
+  const handleButton =() =>{
+    navigate("/liveestimation");
+  }
   return (
     <section
       className="  relative bg-cover  h-[768px] text-white"
@@ -19,6 +23,7 @@ const HeroSection = () => {
         </div>
       </div>
       <button
+      onClick={handleButton}
         className=" absolute  left-32   top-[490px]  max-sm:left-4 max-sm:right-4 max-sm:w-[calc(250px)]
     max-sm:text-base
     max-sm:py-4
