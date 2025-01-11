@@ -8,12 +8,14 @@ import {Activity, Architect, ContactUs, LeadContent, PageNotFound, Static, UserL
 import Leads from "./pages/Leads/LeadItems";
 import {Design, DesignContent} from "./pages/Design";
 import {Work, WorkContent} from "./pages/Work";
+import LiveEstimation from "./pages/LiveEstimation";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+        <Route path="/liveestimation" element={<LiveEstimation/>} />
           <Route path="/test" element={<Testfile />} />
           <Route path="/architect" element={<ArchitectPortal portalType="architect" />} />
           <Route path="/master" element={<ArchitectPortal portalType="master" />} />
@@ -32,6 +34,7 @@ function App() {
             <Route path="architect" element={<Architect />} />
             <Route path="work" element={<Work />} />
             <Route path="workitem/:id" element={<WorkContent />} />
+            
           </Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
