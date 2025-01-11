@@ -3,6 +3,8 @@ import herobackground from "../assets/icons/heroimage.png";
 import tv from "../assets/icons/tv.png";
 import light from "../assets/icons/light.png";
 export {ReactComponent as Logo} from "../assets/icons/d2vlogo.svg";
+export{ReactComponent as ctype} from "../assets/icons/Ctype.svg";
+export {ReactComponent as island} from "../assets/icons/island.svg";
 
 export {default as table} from "../assets/icons/table.png";
 export {default as falseceiling} from "../assets/icons/false.png";
@@ -40,4 +42,10 @@ export {default as WardobeImage} from "../assets/icons/WardobeImage.png";
 export {default as wardrobetwo} from "../assets/icons/Wardrobetwo.png";
 export {default as wardrobethree} from "../assets/icons/Wardrobethree.png";
 export {default as leftarrow} from "../assets/icons/Leftarrow.png";
+export{default as wardrobecal} from "../assets/icons/wardrobecal.png";
+export {default as kitchenshape} from "../assets/icons/kitchenshape.png";
+export {default as wallpanel} from "../assets/icons/wallpanel.png";
+export {default as falseceilingcal} from "../assets/icons/falseceilingcal.png";
+export{default as wallpainting} from "../assets/icons/wallpainting.png";
+export{default as designapproval} from "../assets/icons/designapproval.png";
 
