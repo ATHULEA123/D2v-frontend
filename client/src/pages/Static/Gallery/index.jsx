@@ -24,7 +24,7 @@ const Gallery = () => {
     AOS.init();
   }, [])
   return (
-    <div className="custom-container">
+    <div className="custom-container hide-scrollbar overflow-hidden">
       <div id="gallery" className=" py-5">
         <div>
           <h2 className="text-xl font-semibold text-[#996830cc] leading-[20px] mb-2">
